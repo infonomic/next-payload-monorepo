@@ -2,7 +2,7 @@
 
 ![Next.js 13 App Router Payload CMS Monorepo](https://raw.githubusercontent.com/infonomic/next-payload-monorepo/main/next-payload-server-og.png)
 
-This is a [Next.js](https://nextjs.org/) [Payload CMS](https://payloadcms.com//), [pnpm](https://pnpm.io/) and [turbo](https://turbo.build/repo) monorepo starter project based on the supurb Payload Remix repo here at ... https://github.com/payloadcms/remix-server
+This is a [Next.js](https://nextjs.org/) [Payload CMS](https://payloadcms.com//), [pnpm](https://pnpm.io/) and [turbo](https://turbo.build/repo) monorepo starter project based on the superb Payload Remix repo here at ... https://github.com/payloadcms/remix-server
 
 ## Note
 
@@ -11,7 +11,7 @@ In this configuration the admin panel for Payload CMS will appear under the Next
 ## Features
 
 1. Next.js 13 with App Router and custom Next.js server with Payload CMS integration NOTE: HMR in Next .js 13 is currently broken when using a custom server - see https://github.com/vercel/next.js/issues/50400 https://github.com/vercel/next.js/issues/50461
-2. Shared packages for ESLint, a UIKIT, and Tailwind CSS
+2. Shared packages for Tailwind CSS, ESLint, and a custom UI kit
 3. Configured storybook installation with dark theme switcher for Tailwind CSS
 4. A MongoDB example docker-compose.yml configuration to start a fresh MongoDB instance if you need it.
 
