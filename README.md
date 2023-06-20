@@ -1,10 +1,10 @@
-# Payload CMS Next.js 13 App Router Monorepo
+# Next.js 13 App Router Payload CMS Monorepo
 
-This is a [Next.js](https://nextjs.org/) [Payload CMS](https://payloadcms.com//), [pnpm](https://pnpm.io/) and [turbo](https://turbo.build/repo) monorepo starter project based on the supurb Payload Remix repo here ... https://github.com/payloadcms/remix-server
+This is a [Next.js](https://nextjs.org/) [Payload CMS](https://payloadcms.com//), [pnpm](https://pnpm.io/) and [turbo](https://turbo.build/repo) monorepo starter project based on the supurb Payload Remix repo here at ... https://github.com/payloadcms/remix-server
 
 ## Note
 
-In this configuraiton the admin panel for Payload CMS will appear under the Next.js application as `/admin` and the Payload api endpoint under `/api`. There are security considerations when hosting both your frontend app and Payload CMS on the same domain and so you should consider whether this setup is approropiate for your application and security needs.
+In this configuration the admin panel for Payload CMS will appear under the Next.js application as `/admin` and the Payload api endpoint under `/api`. There are security considerations when hosting both your frontend app and Payload CMS on the same domain and so you should consider whether this setup is approropiate for your application and security needs.
 
 ## Features
 
