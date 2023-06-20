@@ -58,7 +58,13 @@ In the project root run
 
 .. and then
 
-`pnpm dev` to start the server and development environment, or `pnpm dev:seed` to start with a seeded Payload CMS including an admin and guest user. Note: Although this repo is configured to run on HOSTNAME=127.0.0.1 - use http://localhost:3000 and http://localhost:3000/admin as opposed to 127.0.0.1 to prevent CORS errors in Payload CMS admin.
+`pnpm dev`
+
+... to start the server and development environment, or
+
+`pnpm dev:seed`
+
+... to start with a seeded Payload CMS including an admin and guest user. Note: Although this repo is configured to run on HOSTNAME=127.0.0.1 - use http://localhost:3000 and http://localhost:3000/admin as opposed to 127.0.0.1 to prevent CORS errors in Payload CMS admin.
 
 To run a production build
 
