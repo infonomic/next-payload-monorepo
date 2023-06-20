@@ -74,7 +74,7 @@ You can issues package and app specific commands by using `pnpm` filters - for e
 
 ## Storybook
 
-To start work on the uikit, change into the packages/uikit diretory and run storybook
+To start work on the uikit, change into the packages/uikit directory and run storybook
 
 `cd packages/uikit`
 
