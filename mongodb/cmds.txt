@@ -1,3 +1,0 @@
-mongodump "mongodb+srv://serverlessinstance01.zdjhwkw.mongodb.net" --username root --out=./backups/
-
-mongorestore "mongodb://root:test@localhost:27017" --drop ./backups/
