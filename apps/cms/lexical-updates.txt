@@ -1,0 +1,22 @@
+pnpm --filter @org/cms install \
+@lexical/clipboard@latest \
+@lexical/code@latest \
+@lexical/hashtag@latest \
+@lexical/html@latest \
+@lexical/link@latest \
+@lexical/list@latest \
+@lexical/mark@latest \
+@lexical/markdown@latest \
+@lexical/overflow@latest \
+@lexical/react@latest \
+@lexical/rich-text@latest \
+@lexical/selection@latest \
+@lexical/table@latest \
+@lexical/utils@latest \
+lexical@latest \
+
+
+or
+
+
+pnpm up --latest "@lexical/*" 

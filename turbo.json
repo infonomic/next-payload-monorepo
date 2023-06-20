@@ -1,0 +1,51 @@
+{
+  "$schema": "https://turborepo.org/schema.json",
+  "pipeline": {
+    "build": {
+      "cache": false,
+      "dependsOn": [
+        "^build"
+      ],
+      "outputs": [
+        "dist/**",
+        "build/**"
+      ]
+    },
+    "lint": {
+      "outputs": []
+    },
+    "typecheck": {
+      "outputs": []
+    },
+    "dev": {
+      "cache": false
+    },
+    "dev:seed": {
+      "cache": false
+    },
+    "clean": {
+      "cache": false
+    },
+    "serve": {
+      "cache": false,
+      "dependsOn": [
+        "^serve"
+      ]
+    }
+  },
+  "globalEnv": [
+    "PORT",
+    "HOSTNAME",
+    "NEXT_BUILD",
+    "NEXT_PUBLIC_SERVER_URL",
+    "PAYLOAD_PUBLIC_SERVER_URL",
+    "PAYLOAD_PUBLIC_APP_URL",
+    "PAYLOAD_PRIVATE_NEXTJS_REVALIDATION_KEY",
+    "SESSION_SECRET",
+    "MONGODB_URL",
+    "PAYLOAD_SECRET",
+    "NODE_ENV",
+    "PAYLOAD_CONFIG_PATH",
+    "PAYLOAD_SEED"
+  ]
+}

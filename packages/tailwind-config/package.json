@@ -1,0 +1,16 @@
+{
+  "name": "@org/tailwind-config",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf node_modules"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/typography": "^0.5.9",
+    "tailwind-merge": "^1.13.2",
+    "tailwindcss": "^3.3.2"
+  }
+}

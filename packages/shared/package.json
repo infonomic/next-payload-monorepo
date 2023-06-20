@@ -1,0 +1,29 @@
+{
+  "name": "@org/shared",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "main": "./src/index.ts",
+  "exports": {
+    ".": {
+      "serve": {
+        "types": "./dist/index.js",
+        "require": "./dist/index.js",
+        "import": "./dist/index.js"
+      },
+      "default": {
+        "types": "./src/index.ts",
+        "require": "./src/index.ts",
+        "import": "./src/index.ts"
+      }
+    }
+  },
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "clean": "rm -rf node_modules dist .turbo",
+    "lint": "eslint --ext .ts,.js./src"
+  },
+  "dependencies": {
+    "dotenv": "^16.1.3"
+  }
+}

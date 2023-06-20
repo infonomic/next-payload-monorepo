@@ -1,0 +1,6 @@
+node_modules
+!.*
+dist
+build
+.eslintrc.cjs
+src/payload-types.ts

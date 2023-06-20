@@ -1,0 +1,9 @@
+{
+  "verbose": true,
+  "ext": "ts",
+  "exec": "node -r ts-node/register --inspect-brk src/index.ts",
+  "watch": [
+    "./src/index.ts",
+    "../cms/src"
+  ]
+}

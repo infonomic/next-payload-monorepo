@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "baseUrl": "."
+  },
+  "ts-node": {
+    "transpileOnly": true
+  },
+  "include": ["src/**/*", "remix.d.ts"]
+}

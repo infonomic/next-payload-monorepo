@@ -1,0 +1,60 @@
+{
+  "name": "@org/uikit",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "sideEffects": false,
+  "main": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./src/index.ts",
+      "require": "./src/index.ts"
+    },
+    "./styles.css": {
+      "import": "./src/styles/ui.css",
+      "require": "./src/styles/ui.css"
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf node_modules dist types .turbo",
+    "lint": "eslint --ext .ts,.tsx,.js,.jsx ./src",
+    "prepublishOnly": "pnpm run build",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "@radix-ui/react-primitive": "^1.0.3",
+    "classnames": "^2.3.2"
+  },
+  "peerDependencies": {
+    "react": "^18.0.2",
+    "react-dom": "^18.0.2"
+  },
+  "devDependencies": {
+    "@org/eslint-config": "workspace:*",
+    "@org/tailwind-config": "workspace:*",
+    "@storybook/addon-a11y": "^7.0.22",
+    "@storybook/addon-essentials": "^7.0.22",
+    "@storybook/addon-interactions": "^7.0.22",
+    "@storybook/addon-links": "^7.0.22",
+    "@storybook/addon-styling": "^1.3.0",
+    "@storybook/blocks": "^7.0.22",
+    "@storybook/react": "^7.0.22",
+    "@storybook/react-vite": "^7.0.22",
+    "@storybook/testing-library": "0.1.0",
+    "@types/lodash": "^4.14.195",
+    "@types/react": "^18.2.12",
+    "@types/react-dom": "18.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.0.22",
+    "tailwind-merge": "^1.13.2",
+    "tailwindcss": "^3.3.2",
+    "tsup": "^7.0.0",
+    "typescript": "^5.1.3"
+  }
+}

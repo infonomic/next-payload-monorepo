@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "jsx": "react-jsx",
+    "module": "NodeNext",
+    "target": "es2021",
+    "sourceMap": true,
+    "declaration": true,
+    "noEmitOnError": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "noEmit": false
+  },
+  "exclude": ["node_modules", "dist", "build", ".turbo", ".storybook"],
+  "ts-node": {
+    "transpileOnly": true,
+    "swc": true
+  }
+}

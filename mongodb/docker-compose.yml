@@ -1,0 +1,15 @@
+version: '3'
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: org_mongodb
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=test
+    ports:
+      - 27017:27017
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: ./data
+        target: /data/db
