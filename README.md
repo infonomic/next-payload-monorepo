@@ -1,5 +1,7 @@
 # Next.js 13 App Router Payload CMS Monorepo
 
+![Next.js 13 App Router Payload CMS Monorepo](https://raw.githubusercontent.com/infonomic/next-payload-monorepo/main/next-payload-server-og.png)
+
 This is a [Next.js](https://nextjs.org/) [Payload CMS](https://payloadcms.com//), [pnpm](https://pnpm.io/) and [turbo](https://turbo.build/repo) monorepo starter project based on the supurb Payload Remix repo here at ... https://github.com/payloadcms/remix-server
 
 ## Note
