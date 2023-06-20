@@ -27,7 +27,7 @@ to
 
 Generate your Payload CMS secret session key by calling...
 
-`node app/server/generatePayloadSecret.js`
+`node apps/server/generatePayloadSecret.js`
 
 and then update your `.env` PAYLOAD_SECRET accordingly.
 
