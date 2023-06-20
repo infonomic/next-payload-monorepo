@@ -37,6 +37,7 @@ Optionally start your local MongoDB database (assumes you have Docker or Docker 
 
 ```
 cd mongodb (you must be in this dir)
+mkdir data
 ./mongo.sh up
 ```
 
